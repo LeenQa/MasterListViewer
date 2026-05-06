@@ -7,5 +7,3 @@ using System.Windows;
                                                 // or application resource dictionaries)
     ResourceDictionaryLocation.SourceAssembly   //where the generic resource dictionary is located
 )]
-[assembly: AssemblyTitle("MasterListViewer")]
-[assembly: AssemblyCopyright("Copyright © 2026 LeenQa")]
