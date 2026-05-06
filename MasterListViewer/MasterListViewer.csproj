@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Copyright>Copyright © 2026 LeenQa</Copyright>
+    <Authors>Leen Qazaha</Authors>
+    <Company>LeenQa</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- You can also use BouncyCastle.Cryptography; both work.
+         Portable.BouncyCastle is widely used in .NET for CMS/X509. -->
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+
+</Project>
